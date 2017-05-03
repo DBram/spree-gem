@@ -22,18 +22,12 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 
 gem 'rmagick'
-gem 'spree'
-gem 'spree_auth_devise'
-gem 'spree_gateway'
-
-
-
 
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use ActiveModel has_secure_password
-gem 'bcrypt', '~> 3.1.7'
+# gem 'bcrypt', '~> 3.1.7'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
@@ -54,3 +48,6 @@ group :development do
   gem 'spring'
 end
 
+gem 'spree', '~> 3.1.0'
+gem 'spree_auth_devise', '~> 3.1.0'
+gem 'spree_gateway', '~> 3.1.0'

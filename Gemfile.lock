@@ -291,7 +291,7 @@ GEM
     truncate_html (0.9.3)
     turbolinks (5.0.1)
       turbolinks-source (~> 5)
-    turbolinks-source (5.0.1)
+    turbolinks-source (5.0.2)
     twitter_cldr (3.6.0)
       camertron-eprun
       cldr-plurals-runtime-rb (~> 1.0)
@@ -317,7 +317,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bcrypt (~> 3.1.7)
   byebug
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
@@ -326,9 +325,9 @@ DEPENDENCIES
   rmagick
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
-  spree
-  spree_auth_devise
-  spree_gateway
+  spree (~> 3.1.0)
+  spree_auth_devise (~> 3.1.0)
+  spree_gateway (~> 3.1.0)
   spring
   sqlite3
   turbolinks
